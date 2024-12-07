@@ -1,11 +1,22 @@
+/* 特性部分的容器样式 */
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  display: flex;           /* 使用弹性布局 */
+  align-items: center;     /* 垂直居中对齐 */
+  padding: 2rem 0;         /* 上下内边距为2rem */
+  width: 100%;            /* 宽度占满容器 */
 }
 
+/* 特性图标的样式 */
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 150px;          /* 图标高度 */
+  width: 150px;           /* 图标宽度 */
+  margin: 1rem;           /* 添加外边距 */
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 996px) {
+  .featureSvg {
+    height: 120px;  /* 移动端更小 */
+    width: 120px;
+  }
 }

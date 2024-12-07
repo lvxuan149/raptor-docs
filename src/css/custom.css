@@ -1,30 +1,35 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * 这里的CSS将全局生效。经典模板默认集成了Infima。
+ * Infima是一个专为内容密集型网站设计的CSS框架。
  */
 
-/* You can override the default Infima variables here. */
+/* 在这里可以覆盖默认的Infima变量 */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* 主色调变量定义 */
+  --ifm-color-primary: #990099;          /* 主色调 */
+  --ifm-color-primary-dark: #800080;     /* 深色主色调 */
+  --ifm-color-primary-darker: #660066;   /* 更深色主色调 */
+  --ifm-color-primary-darkest: #4d004d;  /* 最深色主色调 */
+  --ifm-color-primary-light: #b300b3;    /* 浅色主色调 */
+  --ifm-color-primary-lighter: #cc00cc;  /* 更浅色主色调 */
+  --ifm-color-primary-lightest: #e600e6; /* 最浅色主色调 */
+  
+  /* 其他全局变量 */
+  --ifm-code-font-size: 95%;             /* 代码字体大小 */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1); /* 代码高亮背景色 */
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* 为了提高可读性，在暗色模式下使用更亮的调色板 */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* 暗色模式主色调变量 */
+  --ifm-color-primary: #25c2a0;          /* 暗色模式主色调 */
+  --ifm-color-primary-dark: #21af90;     /* 暗色模式深色主色调 */
+  --ifm-color-primary-darker: #1fa588;   /* 暗色模式更深色主色调 */
+  --ifm-color-primary-darkest: #1a8870;  /* 暗色模式最深色主色调 */
+  --ifm-color-primary-light: #29d5b0;    /* 暗色模式浅色主色调 */
+  --ifm-color-primary-lighter: #32d8b4;  /* 暗色模式更浅色主色调 */
+  --ifm-color-primary-lightest: #4fddbf; /* 暗色模式最浅色主色调 */
+  
+  /* 暗色模式其他变量 */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3); /* 暗色模式代码高亮背景色 */
 }

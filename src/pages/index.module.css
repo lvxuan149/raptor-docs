@@ -1,23 +1,87 @@
 /**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+ * 带有 .module.css 后缀的CSS文件将被视为CSS模块
+ * 并且样式将被局部作用域化
  */
 
+/* 首页横幅样式 */
 .heroBanner {
-  padding: 4rem 0;
+  padding: 0;
+  margin: 0;
+  text-align: center;    
+  position: relative;    
+  overflow: hidden;      
+  background-color: #c700c7 !important;
+  height: 60vh;         /* 使用视口高度单位 */
+  min-height: 400px;    /* 设置最小高度 */
+  max-height: 600px;    /* 设置最大高度 */
+  display: block;       /* 改为块级显示 */
+  width: 100%;         /* 确保宽度100% */
+}
+
+/* 头部图片样式 */
+.headerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;      /* 改为块级显示 */
+  margin: 0;           /* 移除所有边距 */
+  padding: 0;
+  opacity: 0.9;        /* 稍微调整透明度 */
+}
+
+/* 内容容器 */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 1200px;
+  z-index: 2;
+}
+
+/* 内容区域 */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* 标题样式 */
+.title {
+  font-size: 3rem;
+  color: white;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
+/* 按钮容器样式 */
 .buttons {
+  position: absolute;
+  bottom: 8rem;          /* 减小底部距离 */
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    height: 50vh;      /* 移动端稍微降低高度 */
+    min-height: 300px;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .buttons {
+    bottom: 1rem;      /* 移动端时距离更小 */
+  }
 }
