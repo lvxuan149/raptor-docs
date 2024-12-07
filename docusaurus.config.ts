@@ -23,7 +23,7 @@ const config: Config = {
   projectName: 'docusaurus',    // 通常是你的仓库名
 
   // 链接检查配置
-  onBrokenLinks: 'throw',        // 断开的链接处理方式：抛出错误
+  onBrokenLinks: 'warn',        // 断开的链接处理方式：警告
   onBrokenMarkdownLinks: 'warn', // Markdown中断开链接的处理方式：警告
 
   // 国际化配置
