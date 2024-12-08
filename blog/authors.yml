@@ -1,12 +1,10 @@
 yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+  name: 0xDragon888
+  title: Front End Engineer @ Raptor
+  image_url: angshun
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    x: lvxuan147
 
 slorber:
   name: Sébastien Lorber
