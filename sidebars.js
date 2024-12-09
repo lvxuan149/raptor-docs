@@ -11,7 +11,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Raptor World',
-      items: ['raptor-world/introduction'],
+      items: ['raptorworld/introduction'],
     },
   ],
 };

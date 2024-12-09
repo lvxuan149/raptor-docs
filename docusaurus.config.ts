@@ -90,8 +90,8 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          type: 'doc',
-          docId: 'raptor-world/introduction',
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Raptor World',
         },
