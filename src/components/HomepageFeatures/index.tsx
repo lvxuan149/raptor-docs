@@ -14,7 +14,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: ' Tutorial',
-    Svg: require('@site/static/img/raptor01.svg').default,
+    Svg: require('@site/static/img/Doc-tutorial.svg').default,
     description: (
       <div style={{textAlign: 'center'}}>
         <p>Helping beginners</p>
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Raotor World',
-    Svg: require('@site/static/img/raptor02.svg').default,
+    Svg: require('@site/static/img/Doc-raptor-world.svg').default,
     description: (
       <>
         <div style={{ 
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Raptor Blog',
-    Svg: require('@site/static/img/raptor03.svg').default,
+    Svg: require('@site/static/img/Doc-raptor-blog.svg').default,
     description: (
       <>
         <div style={{ 
